@@ -1,0 +1,14 @@
+{
+    "author": {
+        "name": "Shabbar",
+        "email": "shabbar3@hotmail.com"
+    },
+    "scripts": {
+        "build": "cp src dist",
+        "test" : "echo test",
+        "start": "node src/index.js"
+        
+     
+
+    }
+}
