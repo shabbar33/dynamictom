@@ -5,10 +5,10 @@
     },
     "scripts": {
         "build": "cp -r src dist",
-        "test" : "echo test",
+        "test": "echo test",
         "start": "node src/index.js"
-        
-     
-
+    },
+    "dependencies": {
+        "express": "^4.18.2"
     }
 }
