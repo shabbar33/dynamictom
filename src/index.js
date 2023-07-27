@@ -6,7 +6,7 @@ app.get('/api', (req, res) => {
     res.send('dickballs dynamic')
 })
 app.get('/api/time', (req, res) => {
-    res.send(new Date().getTime())
+    res.send(""+new Date().getTime())
 })
 
 // azure health check
