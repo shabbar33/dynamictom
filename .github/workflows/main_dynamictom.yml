@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'dynamictom'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_75BB8F8D383B487188E38FE00A805827 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8B73612A80F8432A9A74727D66D6690C }}
           package: .
