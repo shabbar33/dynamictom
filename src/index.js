@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/api', (req, res) => {
-    res.send('dickballs dynamic')
+    res.send('cool dynamic')
 })
 app.get('/api/time', (req, res) => {
     res.send(""+new Date().getTime())
